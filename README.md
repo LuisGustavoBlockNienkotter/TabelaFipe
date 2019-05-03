@@ -1,18 +1,12 @@
 # TabelaFipe
-package teste;
 
-import BO.ListaAnoModelo;
-import BO.ListaCarro;
-import BO.ListaMarca;
-import BO.ListaModelo;
-import BO.ManipJSON;
-import TabelaFipe.TabelaFipe;
-import ConexaoTabelaFipe.Conexao;
 
 public class test {
+
     public static void main(String[] args) {
+	
         TabelaFipe tf = new TabelaFipe();
-        
+		
         ListaMarca listaMarca = new ListaMarca();
         //Pode ser do tipo carros, caminhoes ou motos
         tf.carregarMarcas("carros");
@@ -43,3 +37,4 @@ public class test {
 
     }
 }
+
